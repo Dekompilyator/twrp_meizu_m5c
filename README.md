@@ -21,7 +21,7 @@ Kernel  | 3.18.19
 ```
 repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-6.0
 repo sync
-git clone https://github.com/Dekompilyator/twrp_meizu_m5s device/meizu/m5c
+git clone https://github.com/Dekompilyator/twrp_meizu_m5c device/meizu/m5c
 . build/envsetup.sh
 lunch omni_m5c-eng
 mka recoveryimage
