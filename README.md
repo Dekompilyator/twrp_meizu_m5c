@@ -13,7 +13,7 @@ Storage | 16 / 32 GB
 Android | 6.0
 Kernel  | 3.18.19
 
-<img width="250" height="450" alt="52940669-removebg-preview" src="https://github.com/user-attachments/assets/e592584b-21ff-4927-9456-75dd53076316" />
+<img width="250" height="300" alt="52940669-removebg-preview" src="https://github.com/user-attachments/assets/e592584b-21ff-4927-9456-75dd53076316" />
 
 
 
