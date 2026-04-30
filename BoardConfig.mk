@@ -80,6 +80,3 @@ TW_CRYPTO_METADATA_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-n
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-
-#Customization
-TW_DEVICE_VERSION := M5c-1.0.5-LOS by @Dekompilyator
