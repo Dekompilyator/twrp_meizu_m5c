@@ -1,7 +1,7 @@
 DEVICE_TREE := device/meizu/m5c
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6735
+TARGET_BOARD_PLATFORM := mt6737
 TARGET_BOOTLOADER_BOARD_NAME := mt6737
 
 
@@ -43,6 +43,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SUPPRESS_SECURE_ERASE := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 
 #Storage
@@ -56,9 +57,10 @@ TW_INCLUDE_NTFS_3G := true
 # TWRP
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
+TW_SCREEN_BLANK_ON_BOOT := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 
@@ -69,3 +71,7 @@ TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_METADATA_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata"
+
+
+# Time (UTC)
+BOARD_HAS_NO_REAL_RTC := true
